@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prohlédněte si nabídku bezúdržbových WPC produktů – terasy, ploty a obklady v moderním designu.">
+  <title>Produkty | Terasy a Ploty Brno</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Přejít na obsah</a>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+
+      <a href="index.html" class="nav__logo" aria-label="Terasy a Ploty Brno – Domů">
+        <div class="nav__logo-text">
+          Terasy a Ploty Brno
+          <span>WPC kompozit</span>
+        </div>
+      </a>
+
+      <nav class="nav__links" aria-label="Hlavní navigace">
+        <a href="index.html" class="nav__link">Domů</a>
+        <a href="produkty.html" class="nav__link">Produkty</a>
+        <a href="o-nas.html" class="nav__link">O Nás</a>
+      </nav>
+
+      <div class="nav__right">
+        <a href="o-nas.html#kontakt" class="btn btn-primary nav__cta">Kontaktujte Nás</a>
+
+        <button
+          class="nav__hamburger"
+          aria-label="Otevřít menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <nav
+      id="mobile-menu"
+      class="nav__mobile-menu"
+      aria-label="Mobilní navigace"
+    >
+      <a href="index.html" class="nav__mobile-link">Domů</a>
+      <a href="produkty.html" class="nav__mobile-link">Produkty</a>
+      <a href="o-nas.html" class="nav__mobile-link">O Nás</a>
+      <a href="o-nas.html#kontakt" class="btn btn-primary nav__mobile-cta">Kontaktujte Nás</a>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main-content">
+
+    <!-- ========== SECTION 1: PAGE HERO ========== -->
+    <section class="page-hero" aria-label="Nadpis stránky Produkty">
+      <div
+        class="page-hero__bg"
+        role="img"
+        aria-label="WPC kompozitní materiál detail"
+        style="background-image: url('https://static.wixstatic.com/media/019bba_e077d93dd5624bd7a88de6cefa888665~mv2.png');"
+      ></div>
+      <div class="page-hero__overlay" aria-hidden="true"></div>
+      <div class="container page-hero__content">
+        <span class="page-hero__eyebrow">WPC kompozit</span>
+        <h1 class="page-hero__title">Produkty</h1>
+        <p class="page-hero__subtitle">
+          Řešíte terasu k bazénu? Plot kolem domu? Nebo hledáte moderní obklad na fasádu?
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: INTRO ========== -->
+    <section class="products-intro fade-in" aria-label="Úvod do produktů">
+      <div class="container">
+        <p class="products-intro__text">
+          Naše produkty z dřevoplastu vám pomohou realizovat vaše venkovní projekty, a navíc je vyrábíme udržitelným postupem, což přispívá k ochraně přírody.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 3: PRODUCT SECTIONS ========== -->
+
+    <!-- Terasy — image left, text right -->
+    <section class="product-section" id="terasy" aria-labelledby="terasy-heading">
+      <div class="container">
+        <div class="product-section__inner">
+
+          <div class="product-section__image fade-in">
+            <img
+              src="https://static.wixstatic.com/media/019bba_3c083cd28c614c46a2dfc19f1570eac6~mv2.png"
+              alt="Detail WPC terasových prken — pohled na dokončenou terasu"
+              loading="lazy"
+              width="800"
+              height="640"
+            >
+          </div>
+
+          <div class="product-section__text fade-in fade-in-delay-1">
+            <span class="product-section__label">Kategorie 01</span>
+            <h2 class="product-section__title" id="terasy-heading">Terasy</h2>
+            <p class="product-section__description">
+              Prémiová terasová prkna z WPC materiálu. Bezúdržbová, odolná vůči vlhkosti a UV záření. Dostupná v různých barvách a délkách přesně na míru. Záruka 25 let.
+            </p>
+            <ul class="product-section__bullets" aria-label="Vlastnosti teras">
+              <li>Odolné vůči plísním a hnilobě</li>
+              <li>Bezpečné povrchy bez třísek</li>
+              <li>Na míru v délce i barvě</li>
+              <li>Snadná montáž</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Ploty — text left, image right -->
+    <section class="product-section product-section--reverse" id="ploty" aria-labelledby="ploty-heading">
+      <div class="container">
+        <div class="product-section__inner">
+
+          <div class="product-section__image fade-in">
+            <img
+              src="https://static.wixstatic.com/media/019bba_72daacce2191488d96c9c1e7bfe5cba0~mv2.png"
+              alt="WPC plotové desky — moderní dřevoplastový plot"
+              loading="lazy"
+              width="800"
+              height="640"
+            >
+          </div>
+
+          <div class="product-section__text fade-in fade-in-delay-1">
+            <span class="product-section__label">Kategorie 02</span>
+            <h2 class="product-section__title" id="ploty-heading">Ploty</h2>
+            <p class="product-section__description">
+              Moderní plotové desky z WPC, které vypadají jako dřevo, ale nevyžadují žádnou údržbu. Odolné povětrnostním vlivům a UV záření.
+            </p>
+            <ul class="product-section__bullets" aria-label="Vlastnosti plotů">
+              <li>Estetika přírodního dřeva</li>
+              <li>Bez nutnosti nátěru nebo impregnace</li>
+              <li>Dlouhá životnost</li>
+              <li>Montáž na klíč</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Obklady — image left, text right -->
+    <section class="product-section" id="obklady" aria-labelledby="obklady-heading">
+      <div class="container">
+        <div class="product-section__inner">
+
+          <div class="product-section__image fade-in">
+            <img
+              src="https://static.wixstatic.com/media/019bba_892ff78bac2147a8a9f2a5237ab57763~mv2.png"
+              alt="WPC fasádní obklady — moderní opláštění budovy"
+              loading="lazy"
+              width="800"
+              height="640"
+            >
+          </div>
+
+          <div class="product-section__text fade-in fade-in-delay-1">
+            <span class="product-section__label">Kategorie 03</span>
+            <h2 class="product-section__title" id="obklady-heading">Obklady</h2>
+            <p class="product-section__description">
+              Prémiové WPC obklady pro fasády a interiéry. Moderní vzhled s praktickými vlastnostmi kompozitního materiálu.
+            </p>
+            <ul class="product-section__bullets" aria-label="Vlastnosti obkladů">
+              <li>Fasádní i interiérové použití</li>
+              <li>Odolné vůči vlhkosti</li>
+              <li>Snadná instalace</li>
+              <li>Různé barvy a textury</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 4: CTA ========== -->
+    <section class="cta-simple" aria-labelledby="cta-simple-heading">
+      <div class="container">
+        <p class="cta-simple__text fade-in" id="cta-simple-heading">
+          Máte dotaz k produktům nebo chcete nezávaznou konzultaci?
+        </p>
+        <a href="o-nas.html#kontakt" class="btn btn-primary fade-in fade-in-delay-1">
+          Kontaktujte Nás
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <!-- Brand -->
+        <div class="footer__col">
+          <p class="footer__brand-name">Terasy a Ploty Brno</p>
+          <p class="footer__brand-tagline">Prodej a montáž WPC kompozitních teras, plotů a obkladů v Brně a okolí.</p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer__col">
+          <h3 class="footer__heading">Navigace</h3>
+          <nav class="footer__nav" aria-label="Navigace v patičce">
+            <a href="index.html" class="footer__nav-link">Domů</a>
+            <a href="produkty.html" class="footer__nav-link">Produkty</a>
+            <a href="o-nas.html" class="footer__nav-link">O Nás</a>
+            <a href="o-nas.html#kontakt" class="footer__nav-link">Kontakt</a>
+          </nav>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer__col">
+          <h3 class="footer__heading">Kontakt</h3>
+          <address class="footer__contact" style="font-style: normal;">
+
+            <div class="footer__contact-item">
+              <svg class="footer__contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.39 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/>
+              </svg>
+              <a href="tel:+420777224792" class="footer__contact-link">+420 777 224 792</a>
+            </div>
+
+            <div class="footer__contact-item">
+              <svg class="footer__contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              <a href="mailto:info@terasy-plotybrno.cz" class="footer__contact-link">info@terasy-plotybrno.cz</a>
+            </div>
+
+            <div class="footer__contact-item">
+              <svg class="footer__contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>Nové Sady 2, Brno</span>
+            </div>
+
+          </address>
+        </div>
+
+        <!-- Hours -->
+        <div class="footer__col">
+          <h3 class="footer__heading">Otevírací doba</h3>
+          <div class="footer__hours">
+            <p><strong>Pondělí – Pátek</strong></p>
+            <p>9:00 – 15:00 hod</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2025 Terasy a Ploty Brno. Všechna práva vyhrazena.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
